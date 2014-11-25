@@ -7,8 +7,10 @@ Fetch all entries in NCBI nucleotide database that match search criteria.
 
 This script uses the NCBI EUtils to compile a list of all nucleotide entries that match a user-defined set of search criteria, and then fetches these entries in the desired format.
 
-Take note of the NCBI disclaimer associated with use of the EUtils.
-www.ncbi.nlm.nih.gov/About/disclaimer.html
+The script splits fetching of records for large lists of GIs into smaller chunks, with a pause built in between fetches. This is designed to prevent the user from breaching the access limits defined by NCBI [here](http://www.ncbi.nlm.nih.gov/books/NBK25497/#_chapter2_Usage_Guidelines_and_Requiremen_). If you edit these settings, please make sure that you don't breach the access limits described at the previous link.
+
+Also take note of the [NCBI disclaimer](www.ncbi.nlm.nih.gov/About/disclaimer.html) associated with use of the EUtils.
+
 ================
 
 ## Usage
