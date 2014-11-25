@@ -20,7 +20,7 @@ Also take note of the [NCBI disclaimer](www.ncbi.nlm.nih.gov/About/disclaimer.ht
 fetches FASTA format records from NCBI nucleotide database.  
 
 Options:  
-> `-h`, `--help` show this help message and exit  
+> `-h`, `--help`        show this help message and exit  
 > `-a STR`, `--accession=STR` nucleotide database accession  
 > `-x STR`, `--all=STR` all fields  
 > `-u STR`, `--author=STR` author associated with submission of record  
